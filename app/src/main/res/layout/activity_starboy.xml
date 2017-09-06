@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <!-- Here you put the rest of your current view-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicproject.StarboyActivity">
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/starboy"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/SongTitle"
+        android:text="Starboy" />
+    <TextView
+        style="@style/SongTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Party Monster" />
+    <TextView
+        style="@style/SongTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="False Alarm" />
+    <TextView
+        style="@style/SongTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reminder" />
+    <TextView
+        style="@style/SongTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rockin'" />
+    <TextView
+        style="@style/SongTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Secrets" />
+    <TextView
+        style="@style/SongTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="True Colors" />
+    <TextView
+        style="@style/SongTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sidewalks" />
+
+</LinearLayout>
+
+</ScrollView>
